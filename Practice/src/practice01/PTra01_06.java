@@ -16,7 +16,7 @@ public class PTra01_06 {
 		str = "宮上京介";
 
 		// ★ 変数 str の中身を出力してください
-		System.out.println("str");
+		System.out.println(str);
 
 	}
 }
