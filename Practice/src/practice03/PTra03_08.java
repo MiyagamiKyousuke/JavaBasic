@@ -23,7 +23,7 @@ public class PTra03_08 {
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int num = scanner.nextInt();
 
-		int money = 1000;	// 所持金
+		int money = 1000; // 所持金
 
 		//---------------------ここから本題-----------------------
 		/*
@@ -35,6 +35,23 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		int orange = 150;
+		int apple = 160;
+		int coffee = 200;
+		switch (num) {
+		case 1:
+			money -= orange;
+			break;
+		case 2:
+			money -= apple;
+			break;
+		case 3:
+			money -= coffee;
+			break;
+		default:
+
+		}
+		System.out.println(money);
 
 	}
 }

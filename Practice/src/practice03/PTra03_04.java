@@ -18,9 +18,15 @@ public class PTra03_04 {
 		String line = scanner.nextLine();
 
 		// 文字列を数字に変換して、変数numに代入します
+
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int num = Integer.parseInt(line);
 
+		if (num % 100 == 0 && !(num % 400 == 0)) {
+			System.out.println(num + "年はうるう年ではありません。");
+		} else if (num % 4 == 0) {
+			System.out.println(num + "年はうるう年です。");
+		}
 		//---------------------ここから本題-----------------------
 		/*
 		 * ★ 入力された値（西暦）がうるう年かどうか判定する条件式を追加してください
@@ -32,7 +38,6 @@ public class PTra03_04 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
 
 	}
 }
