@@ -46,19 +46,27 @@ public class PTra04_05 {
 			 */
 			if (cpuHand == 0) {
 				System.out.println("グー！");
-
-
+				System.out.println(cpuHand);
+				//自分の手がパーで勝利した場合
+				if (myHand == 2) {
+					winFlg = true;
+				}
 
 			} else if (cpuHand == 1) {
 				System.out.println("チョキ！！");
-
-
+				System.out.println(cpuHand);
+				//自分の手がグーで勝利した場合
+				if (myHand == 0) {
+					winFlg = true;
+				}
 
 			} else {
 				System.out.println("パー！！");
-
-
-
+				System.out.println(cpuHand);
+				//自分の手がチョキで勝利した場合
+				if (myHand == 1) {
+					winFlg = true;
+				}
 			}
 
 		}

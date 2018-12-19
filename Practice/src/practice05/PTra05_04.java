@@ -21,18 +21,39 @@ public class PTra05_04 {
 		 * ●0～6が入力されている場合は、各曜日を出力した後プログラムを終了します
 		 *
 		 */
+		while(true){
 
-		// ①
-		System.out.println("0～6の整数を入力してください");
 
-		String line = scanner.nextLine();
+			// ①
+			System.out.println("0～6の整数を入力してください");
 
-		switch(line) {
-			case "0":
-				System.out.println("日曜");
-				break;
-			case "1":
-				System.out.println("月曜");
+			String line = scanner.nextLine();
+
+			switch(line) {
+				case "0":
+					System.out.println("日曜");
+					break;
+				case "1":
+					System.out.println("月曜");
+					break;
+				case "2":
+					System.out.println("火曜");
+					break;
+				case "3":
+					System.out.println("水曜");
+					break;
+				case "4":
+					System.out.println("木曜");
+					break;
+				case "5":
+					System.out.println("金曜");
+					break;
+				case "6":
+					System.out.println("土曜");
+					break;
+				default:
+					System.out.println("再入力");
+			}
 		}
 	}
 }
