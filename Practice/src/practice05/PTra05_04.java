@@ -21,7 +21,8 @@ public class PTra05_04 {
 		 * ●0～6が入力されている場合は、各曜日を出力した後プログラムを終了します
 		 *
 		 */
-		while(true){
+		boolean roop = true;
+		while(roop){
 
 
 			// ①
@@ -32,27 +33,34 @@ public class PTra05_04 {
 			switch(line) {
 				case "0":
 					System.out.println("日曜");
+					roop = false;
 					break;
 				case "1":
 					System.out.println("月曜");
+					roop = false;
 					break;
 				case "2":
 					System.out.println("火曜");
+					roop = false;
 					break;
 				case "3":
 					System.out.println("水曜");
+					roop = false;
 					break;
 				case "4":
 					System.out.println("木曜");
+					roop = false;
 					break;
 				case "5":
 					System.out.println("金曜");
+					roop = false;
 					break;
 				case "6":
 					System.out.println("土曜");
+					roop = false;
 					break;
 				default:
-					System.out.println("再入力");
+
 			}
 		}
 	}
