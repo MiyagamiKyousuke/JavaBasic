@@ -23,16 +23,14 @@ public class PTra10_06 {
 		Car car3 = new Car();
 
 		car1.color = "red";
-		car2.color ="blue";
-		car3.color ="yellow";
+		car2.color = "blue";
+		car3.color = "yellow";
 
-		car1.gasoline = 30;
-		car2.gasoline =30;
-		car3.gasoline =40;
-
+		car1.gasoline = 40;
+		car2.gasoline = 40;
+		car3.gasoline = 40;
 
 		final int distance = 300;
-
 
 		int n = 0;
 		for (int i = 0; i < distance;) {

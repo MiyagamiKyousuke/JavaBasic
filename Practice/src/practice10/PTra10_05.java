@@ -56,10 +56,9 @@ public class PTra10_05 {
 			n++;
 		}
 
-		if(car.gasoline < 0) {
+		if (car.gasoline < 0) {
 			System.out.println("目的地に到達できませんでした");
-		}else {
-
+		} else {
 
 			System.out.println("目的地にまで" + n + "時間かかりました。残りのガソリンは、" + car.gasoline + "リットルです");
 		}
