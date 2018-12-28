@@ -6,7 +6,22 @@
  */
 package practice14.ptra14;
 
-public class PTra14_01 {
+import practice14.common.Course;
+
+public class PTra14_01 implements Course{
+
+	@Override
+	public String getCourseName() {
+		// TODO 自動生成されたメソッド・スタブ
+
+		return null;
+	}
+
+	@Override
+	public String[] getCourseUnit() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
 
 	/*
 	 * ★ common.Courseを実装した、JavaCourseクラスを作成してください
