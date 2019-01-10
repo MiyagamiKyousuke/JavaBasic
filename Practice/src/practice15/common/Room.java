@@ -58,4 +58,5 @@ public class Room {
 	public void setStartDate(Date startDate) {
 		this.startDate = startDate;
 	}
+	
 }

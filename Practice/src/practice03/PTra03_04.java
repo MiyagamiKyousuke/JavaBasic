@@ -26,7 +26,7 @@ public class PTra03_04 {
 				!(num % 400 == 0) ||
 				!(num % 4 == 0)) {
 			System.out.println(num + "年はうるう年ではありません。");
-		} else if (num % 4 == 0) {
+		} else {
 			System.out.println(num + "年はうるう年です。");
 		}
 		//---------------------ここから本題-----------------------

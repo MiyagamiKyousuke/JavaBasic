@@ -6,21 +6,34 @@
  */
 package practice14.ptra14;
 
-import practice14.common.Course;
+public class PTra14_02{
 
-public class PTra14_02 implements Course {
+	public static void main(String[] args) {
+		String couseName;
+		String[] courseunit = new String[5];
+		DBCourse dbCourse = new DBCourse();
+		String courseName = dbCourse.getCourseName();
+		String[] courseNames = courseName.split(",");
+		for(int i = 0; i < courseNames.length; i++) {
+			if (i == 0) {
+				System.out.println(courseNames[i]);
+			} else {
+				System.out.println("\t" + courseNames[i]);
+			}
+		}
 
-	@Override
-	public String getCourseName() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+		courseunit = dbCourse.getCourseUnit();
+
+		for (int i = 0; i < courseunit.length; i++) {
+			if (i == 0) {
+				System.out.println(courseunit[i]);
+			} else {
+				System.out.println("\t" + courseunit[i]);
+			}
+
+		}
 	}
 
-	@Override
-	public String[] getCourseUnit() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
-	}
 
 	/*
 	 * ★ common.Courseを実装した、DBCourseクラスを作成してください
